@@ -1,0 +1,263 @@
+
+.menubar{
+	background-color:black;
+	text-align:center;
+    width:90%;
+}
+.menubar ul{
+	list-style:none;
+	display:inline-flex;
+	padding:15px;
+}
+.menubar ul li{
+	padding:10px;
+}
+
+.menubar ul li a{
+		text-decoration:none;
+		color:white;
+		padding:10px;
+		}
+.menubar ul li a:hover{
+	background-color:red;
+	border-radius:10px;
+}
+
+.menubar ul li:hover .submenu{
+	display:block;
+	position:absolute;
+	background-color:black;
+	border-radius:10px;
+	margin-left:-25px;
+}
+
+.image{
+	background-image:url("../images/academy-banner.jpg");
+	height:700px;
+	width:1340px;
+	background-size:cover;
+	}
+.logo{
+	height:100px;
+	width:50px;
+	margin-left:900px;
+	padding-top:200px;
+}
+.txt{
+	text-align:right;
+	margin-left:600px;
+	width:500px;
+	font-size:30px;
+}
+.image1{
+	background-image:url("../images/whylove-img.jpg");
+	height:400px;
+	width:600px;
+	background-repeat:no-repeat;
+	margin-left:200px;
+	margin-top:100px;
+}
+.paragraph{
+	width:500px;
+	height:200px;
+	background-color:#1e2531;
+	position:absolute;
+	margin-top:150px;
+	margin-left:500px;
+}
+.paragraph p{
+	color:#aadaf0;
+	font-size:20px;
+	margin-left:50px;
+}
+.paragraph p:after
+{
+	content:"}";
+	color:#ff007f;
+}
+.paragraph p:before
+{
+	content:"{";
+	color:#ff007f;
+}
+.paragraph1{
+	width:820px;
+	height:150px;
+	margin-left:250px;
+	line-height:1.3;
+	word-spacing:5px;
+	text-align:center;
+	color:#252525;
+	font-size:20px;
+}
+.image2{
+	background-image:url("../images/modulebg.jpg");
+	height:700px;
+}
+.parag{
+	width:400px;
+	height:400px;
+	padding-top:40px;
+	margin-top:150px;
+	margin-left:100px;
+	position:absolute;
+	text-align:center;
+	display:inline;
+   }
+   .parag p{
+	   background-color:rgba(0,0,0,0.7);
+	  border-radius:10px;
+	  width:200px;
+	  height:40px;
+	  color:white;
+	  padding-top:20px;
+   }
+.para{
+	width:300px;
+	height:300px;
+	padding-top:50px;
+	margin-top:150px;
+	margin-left:400px;
+	position:absolute;
+	text-align:center;
+	display:inline;
+}
+.para p{
+	background-color:rgba(0,0,0,0.7);
+	  border-radius:10px;
+	  width:200px;
+	  height:40px;
+	  color:white;
+	   padding-top:20px;
+}
+.par{
+	width:300px;
+	height:300px;
+	padding-top:50px;
+	margin-top:150px;
+	margin-left:700px;
+	position:absolute;
+	text-align:center;
+	display:inline;
+}
+.par p{
+	background-color:rgba(0,0,0,0.7);
+	  border-radius:10px;
+	  width:200px;
+	  height:40px;
+	  color:white;
+	  padding-top:20px;
+}
+.pa{
+	width:300px;
+	height:300px;
+	padding-top:50px;
+	margin-top:150px;
+	margin-left:1000px;
+	position:absolute;
+	
+	 text-align:center;
+	 display:inline;
+}
+.pa p{
+	background-color:rgba(0,0,0,0.7);
+	  border-radius:10px;
+	  padding-top:20px;
+	  width:200px;
+	  height:40px;
+	  color:white;
+}
+.paragraph2{
+	width:700px;
+	height:100px;
+	text-align:center;
+	margin-top:25px;
+	margin-left:300px;
+	color:#252525;
+	font-size:20px;
+	line-height:1.3;
+	word-spacing:5px;
+	}
+.parallel{
+	display:flex;
+	}
+.image3{
+	background-image:url("../images/testsbg.jpg");
+	height:500px;
+	width:690px;
+	margin-top:50px;
+	background-repeat:no-repeat;
+	}
+.para3{
+	height:380px;
+	width:580px;
+	background-color:rgba(6,8,11,.7);
+	margin-top:40px;
+	margin-left:40px;
+	position:absolute;
+}
+.para3 p{
+	text-align:center;
+	margin-top:160px;
+	margin-left:130px;
+	color:#ffffff;
+	width:300px;
+	font-size:20px;
+}
+.image4{
+	background-image:url("../images/intrvwbg.jpg");
+	height:500px;
+	width:690px;
+	margin-top:50px;
+	background-repeat:no-repeat;
+}
+.para4{
+	height:380px;
+	width:580px;
+	background-color:rgba(6,8,11,.7);
+	margin-top:40px;
+	margin-left:40px;
+	position:absolute;
+}
+.para4 p{
+	text-align:center;
+	margin-top:160px;
+	margin-left:130px;
+	color:#ffffff;
+	width:300px;
+	font-size:20px;
+	}
+
+.head{
+	margin-left:350px;
+	color:#181e22;
+	font-size:30px;
+	}
+.head1 input{
+	color:#f26422;
+	border:2px solid #f26422;
+	background-color:white;
+	padding-left:20px;
+	padding-right:20px;
+	height:40px;
+	margin-left:600px;
+}
+.address{
+	display:flex;
+
+}
+.address1{
+		text-align:center;
+		width:200px;
+		height:200px;
+		padding:20px;
+		margin-left:400px;
+		
+}
+.address2{
+	text-align:center;
+	width:200px;
+	height:200px;
+	margin-right:300px;
+	padding:20px;
+}
